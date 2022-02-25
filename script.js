@@ -82,3 +82,14 @@ for (let index = 1; index <= 6; index++) {
 
 document.getElementById('risultato').innerHTML= dispari; */
 
+//SNACK6
+/* const num = prompt('Inserisci un numero di quattro cifre');
+let somma=0;
+if (num.length!=4||isNaN(num)){
+    alert('Devi inserire quattro cifre!')
+} else {
+    for (let index = 0; index < num.length; index++) {
+        somma+=parseInt(num.charAt(index));    
+    }
+    document.getElementById('risultato').innerHTML= somma;
+} */
