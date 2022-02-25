@@ -7,21 +7,21 @@ if (isNaN(num1)||isNaN(num2)){
 } else if (num1==num2) {
     document.getElementById('risultato').innerHTML= 'I numeri sono uguali';
 } else if (num1>num2) {
-    document.getElementById('risultato').innerHTML= 'Il primo numero è maggiore';
+    document.getElementById('risultato').innerHTML= num1;
 } else {
-    document.getElementById('risultato').innerHTML= 'Il secondo numero è maggiore';
+    document.getElementById('risultato').innerHTML= num2;
 } */
 
 //SNACK2
 /* const str1 = prompt('Inserisci la prima parola');
 const str2 = prompt('Inserisci la seconda parola');
 
-if (str2.length>str1.length) {
+if (str2.length<str1.length) {
     document.getElementById('risultato').innerHTML= str2 + ' ' + str1;
 } else {
     document.getElementById('risultato').innerHTML= str1 + ' ' + str2;
-} 
-*/
+}  */
+
 
 //SNACK3
 /* let num1 = parseInt(prompt('Inserisci il primo numero'));
