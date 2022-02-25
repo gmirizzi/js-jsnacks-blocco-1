@@ -69,3 +69,16 @@ if (check) {
 } else {
     document.getElementById('risultato').innerHTML= 'Non sei stato invitato';
 } */
+
+//SNACK5
+/* const dispari = [];
+
+for (let index = 1; index <= 6; index++) {
+    const num = prompt('Inserisci un numero');
+    if (num%2 != 0){
+        dispari.push(num);
+    }    
+}
+
+document.getElementById('risultato').innerHTML= dispari; */
+
