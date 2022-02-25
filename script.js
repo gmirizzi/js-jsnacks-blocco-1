@@ -60,13 +60,16 @@ if (check) {
 
 for (let index = 1; index <= 6; index++) {
     const num = prompt('Inserisci un numero');
-    if (num%2 != 0){
+    if(isNaN(num)){
+        alert('Non è un numero!');
+        continue;
+    }else if (parseInt(num)%2==1){
         dispari.push(num);
     }    
 }
 
-document.getElementById('risultato').innerHTML= dispari; 
-*/
+document.getElementById('risultato').innerHTML= dispari;  */
+
 
 //SNACK6
 /* 
