@@ -128,3 +128,15 @@ while (index <= 5) {
 
 
 /* document.getElementById('risultato').innerHTML = somma; */
+
+//SNACK2.2
+/* let num = prompt('Inserisci un numero');
+while (isNaN(num)) {
+    alert('Devi inserire un numero!');
+    num = prompt('Inserisci un numero');
+}
+if (parseInt(num)%2==0){
+    document.getElementById('risultato').innerHTML = num;
+} else {
+    document.getElementById('risultato').innerHTML = parseInt(num)+1;
+} */
