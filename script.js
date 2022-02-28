@@ -102,3 +102,29 @@ while (i<=10) {
 }*/
 /* document.getElementById('risultato').innerHTML= 'Somma: '+somma+'; Media: '+media;  */
 
+//SNACK2.1
+/* let somma = 0; */
+//FOR
+/* for (let index = 1; index <= 5; index++) {
+    const num = parseInt(prompt('Inserisci un numero'));
+    if (isNaN(num)){
+        alert('Non è un numero!');
+        continue;
+    } else {
+        somma+=num;
+    }
+} */
+//WHILE
+/* let index = 1;
+while (index <= 5) {
+    const num = parseInt(prompt('Inserisci un numero'));
+    if (isNaN(num)) {
+        alert('Non è un numero!');
+    } else {
+        somma += num;
+        index++;
+    }
+} */
+
+
+/* document.getElementById('risultato').innerHTML = somma; */
