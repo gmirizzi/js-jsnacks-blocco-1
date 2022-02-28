@@ -44,7 +44,7 @@ let check = false;
 for (let index = 0; index < invitati.length; index++) {
     if (nome.toLowerCase()==invitati[index].toLowerCase()) {
         check = true;
-    }    
+    }
 }
 
 if (check) {
@@ -52,7 +52,7 @@ if (check) {
     check = false;
 } else {
     document.getElementById('risultato').innerHTML= 'Non sei stato invitato';
-} 
+}
 */
 
 //SNACK5
@@ -65,22 +65,40 @@ for (let index = 1; index <= 6; index++) {
         continue;
     }else if (parseInt(num)%2==1){
         dispari.push(num);
-    }    
+    }
 }
 
 document.getElementById('risultato').innerHTML= dispari;  */
 
 
 //SNACK6
-/* 
+/*
 const num = prompt('Inserisci un numero di quattro cifre');
 let somma=0;
 if (num.length!=4||isNaN(num)){
     alert('Devi inserire quattro cifre!')
 } else {
     for (let index = 0; index < num.length; index++) {
-        somma+=parseInt(num.charAt(index));    
+        somma+=parseInt(num.charAt(index));
     }
     document.getElementById('risultato').innerHTML= somma;
-} 
+}
 */
+
+//SNACK9
+/* let somma=0;
+let media=0; */
+//FOR
+/* for (let i=1; i<=10; i++){
+    somma+=i;
+    media=somma/i;
+} */
+//WHILE
+/* let i=1;
+while (i<=10) {
+    somma+=i;
+    media=somma/i;
+    i++;
+}*/
+/* document.getElementById('risultato').innerHTML= 'Somma: '+somma+'; Media: '+media;  */
+
