@@ -140,3 +140,83 @@ if (parseInt(num)%2==0){
 } else {
     document.getElementById('risultato').innerHTML = parseInt(num)+1;
 } */
+
+//SNACK2.3
+/* const nomi = [
+    'Luca',
+    'Alessandro',
+    'Luigi',
+    'Massimo',
+    'Cristian',
+    'Paolo',
+    'Giovanni',
+    'Anthony',
+    'Aldo',
+    'Michela',
+    'Daniele',
+    'Marzio',
+    'Samuele',
+    'Khongor',
+    'Mattia',
+    'Kristian',
+    'Laura',
+    'Mario',
+    'Giuseppe',
+    'Mirko',
+    'Federico',
+    'Camilla',
+    'Maria Giuliana',
+    'Giacomo',
+    'Piergiorgio',
+    'Salvatore',
+    'Erika',
+    'Matteo',
+    'Antonio',
+    'Adelin Dumitru',
+    'Simone',
+    'Alessio'
+]
+const cognomi = [
+    'Andaloro',
+    'Ballabio',
+    'Bardella Gerbi',
+    'Battinelli',
+    'Bricicaru',
+    'Calafiore',
+    'Calia',
+    'Cecconi',
+    'Cocurullo',
+    'Colangelo',
+    'De Simone',
+    'Della Rocca',
+    'Gerelchimeg',
+    'La Selva',
+    'Llambro',
+    'Lo Bianco',
+    'Margherita',
+    'Martino',
+    'Mirizzi',
+    'Moschella ',
+    'Mura',
+    'Palombi',
+    'Pasinetti',
+    'Passariello',
+    'Piras',
+    'Praticò',
+    'Sarleti',
+    'Segattini',
+    'Stortini',
+    'Straziota',
+    'Tanasa',
+    'Tartaglia',
+    'Tucci',
+    'Uva',
+    'Vitiello'
+]
+
+const invitati = [];
+for (let index = 1; index <= 3; index++) {
+    invitati.push(nomi[parseInt(Math.random()*nomi.length)] + ' ' + cognomi[parseInt(Math.random()*cognomi.length)])    
+}
+
+document.getElementById('risultato').innerHTML=invitati; */
