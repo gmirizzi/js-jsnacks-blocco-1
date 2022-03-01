@@ -138,7 +138,7 @@ while (isNaN(num)) {
 if (parseInt(num)%2==0){
     document.getElementById('risultato').innerHTML = num;
 } else {
-    document.getElementById('risultato').innerHTML = parseInt(num)+1;
+    document.getElementById('risultato').innerHTML = num+1;
 } */
 
 //SNACK2.3
